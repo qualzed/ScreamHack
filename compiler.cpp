@@ -20,7 +20,7 @@ void Compile() {
 int main()
 {
     int inp;
-    cout << br_green << "ScreamHack compiler 1.0.2" << RESET_COLOR << "\n> [01] Settings\n> [02] Compile\n> [03] Github\n> [04] Exit\n";
+    cout << br_green << "ScreamHack compiler 1.0.3" << RESET_COLOR << "\n> [01] Settings\n> [02] Compile\n> [03] Github\n> [04] Exit\n";
     while (true) {
         cin >> inp;
 

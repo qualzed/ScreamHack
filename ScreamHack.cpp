@@ -4,8 +4,8 @@
 *   ||               HAVE FUN!             ||   *
 *   || =================================== ||   *
 *   || AUTHOR | qualzed                    ||   *
-*   || VERSION | 1.0.2                     ||   *
-*   || GITHUB | github.com/qqqllllzzzz     ||   *
+*   || VERSION | 1.0.23                    ||   *
+*   || GITHUB | github.com/qualzed         ||   *
 *   || COMPILER | GCC                      ||   *
 *   || =================================== ||   *
 */

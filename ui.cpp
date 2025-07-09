@@ -28,7 +28,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
 }
 
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow) {
-    const wchar_t CLASS_NAME[] = L"ScreamHack 1.0.2";
+    const wchar_t CLASS_NAME[] = L"ScreamHack 1.0.3";
 
     WNDCLASS wc = {};
     wc.lpfnWndProc = WindowProc;
@@ -39,7 +39,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLi
     HWND hwnd = CreateWindowEx(
         0,
         CLASS_NAME,
-        L"ScreamHack 1.0.2",
+        L"ScreamHack 1.0.3",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT, CW_USEDEFAULT, 300, 150,
         NULL,
